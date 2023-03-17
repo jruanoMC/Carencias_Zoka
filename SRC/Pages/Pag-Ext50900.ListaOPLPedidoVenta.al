@@ -35,7 +35,7 @@ pageextension 50900 "Lista OPL + Pedido Venta" extends "Released Production Orde
         FromID := OrderTrackingEntry."From ID";
         PedidoVenta := format(FromID);
     end;
-
+    // ddd
     var
         FromID: Code[20];
         PedidoVenta: Text;
